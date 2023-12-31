@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .scroll-custom::-webkit-scrollbar {
+        height: 14px;
+        width: 14px;
+    }
+
+    .scroll-custom::-webkit-scrollbar-thumb {
+        background: rgba(100 116 139);
+        border-radius: 8px;
+    }
+}
